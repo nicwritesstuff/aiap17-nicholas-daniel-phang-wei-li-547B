@@ -25,7 +25,7 @@ Email: nicholas.pwl@gmail.com
 ## c. Instructions to Execute Pipeline & Modify Parameters
 To use this, navigate to the root folder and open the command line, then run ./run.sh.\
 \
-Users have the option of 'rf', 'dt', or 'all' to run the Random Forests model, Decision Tree model, or both respectively. Users can also type 'help', run python3 src/main.py -h to see the available options.
+Users have the option of 'rf', 'dt', or 'all' to run the Random Forests model, Decision Tree model, or both respectively. The option is set to "all" by default". Users can also type 'help', run python3 src/main.py -h to see the available options.
 
 ## d. Description of Logical Steps of Pipeline
 
