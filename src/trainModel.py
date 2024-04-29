@@ -2,8 +2,6 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import precision_score, recall_score
 
-#import pickle
-
 def trainAndPredict(X_train, X_test, Y_train, type="all"):
 
   accuracy = {}
