@@ -34,12 +34,11 @@ if process == "start":
   print(" > Retrieving data from database...")
   start_time = datetime.datetime.now()
   directory_str = 'data/calls.db'
+#-----------USE THIS IF ALL ELSE FAILS------------------------
 #  directory_str = r"../data/calls.db"
   df = retrieveDataframe.connectToDataBase(directory_str)
   taskTimes["Train-Test Split"] = (datetime.datetime.now() - start_time).total_seconds()
   
-#---------- REMOVE LATER-------------------------  
-  print(df.head())
   
   
   process = "clean"
