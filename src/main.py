@@ -7,10 +7,10 @@ import os
 
 
 # Import other py files
-import retrieveDataframe.py
-import cleanupDataframe.py
-import splitTrainingTest.py
-import trainModel.py
+import retrieveDataframe
+import cleanupDataframe
+import splitTrainingTest
+import trainModel
 
 
 taskTimes = {}
