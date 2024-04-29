@@ -77,5 +77,3 @@ We evaluate our selected models by looking at their precisions and recalls. Belo
 When comparing our precisions and recalls to that of the carrier's current scam flagging methods, both models perform better, confirming our intention to improve on scam detection via ML. 
 
 Comparing the two models, despite having a very similar accuracy, the differences in precision and recall indicate that Random Forests would be a better model to deploy. We have decided to select Random Forests as the primary model, and we have included Decision Trees as a secondary model in our MLP.
-"# aiap17-nicholas-daniel-phang-wei-li-547B" 
-"# aiap17-nicholas-daniel-phang-wei-li-547B" 
